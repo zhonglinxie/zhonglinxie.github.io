@@ -1,25 +1,25 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  # more_info: >
+  #   <p>Room 312</p>
+  #   <p>Building 21</p>
+  #   <p>Peking University, Beijing</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome to my personal homepage! I am a 3rd-year Ph.D. student at the [Beijing International Center for Mathematical Research](https://bicmr.pku.edu.cn/) at [Peking University](https://english.pku.edu.cn/), advised by Prof. [Zaiwen Wen](http://faculty.bicmr.pku.edu.cn/~wenzw/index.html). I am a member of the [Elite Ph.D. Program in Applied Mathematics](https://cmlr.pku.edu.cn/Graduate/ElitePhDProgram/Students/index.htm).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests lie in the fields of machine learning and optimization. Specifically, I am interested in designing new optimization algorithms using machine learning techniques, known as Learning to Optimize (L2O). I also have a strong interest in analyzing and developing new optimization algorithms from the ODE perspective. Furthermore, I am keen on addressing problems in deep learning using tools and insights from optimization.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I received my bachelor's degree in 2021 from the [School of Mathematical Sciences](http://english.math.pku.edu.cn/) at Peking University, majoring in computational mathematics. Additionally, I was a member of the [Elite Program of Applied Mathematics and Statistics for Undergraduates](https://www.math.pku.edu.cn/amel/syscgzs/bjxskycgzs/134601.htm). I also obtained a bachelor's degree in economics from the [National School of Development](https://en.nsd.pku.edu.cn/) from 2018 to 2021.
