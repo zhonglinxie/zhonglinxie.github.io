@@ -25,9 +25,11 @@ pagination:
 
   <div class="header-bar">
     <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
+  <!-- <blockquote class="block-warning"> -->
+    {{ site.blog_description }}
+  <!-- </blockquote> -->
   </div>
-  {% endif %}
+{% endif %}
 
 {% if site.display_tags or site.display_categories %}
 
@@ -54,7 +56,7 @@ pagination:
       {% endfor %}
     </ul>
   </div>
-  {% endif %}
+{% endif %}
 
 {% assign featured_posts = site.posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}

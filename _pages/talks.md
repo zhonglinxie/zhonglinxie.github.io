@@ -12,10 +12,11 @@ nav_order: 2
   Dec. 8, 2022
 
 - **[Plug-and-Play: Algorithms, Parameters Tuning and Interpretation](/assets/pdf/PnP.pdf)**  
+  *The notes of this talk is available <a href="{{ site.baseurl }}{% post_url 2022-03-01-Plug and Play%}">here</a> (in Chinese).*  
   Seminar on Operations Research at BICMR  
   Feb. 28, 2022
 
 - **[ADMM-Net: An Algorithm Unrolling Approach For Network Resource Allocation](/assets/pdf/ADMM-Net.pdf)**  
-  This is part of the [PKU Summer School on Applied Mathematics 2022](https://www.math.pku.edu.cn/amel/sqxx/141503.htm). The course material including lecture notes in English and videos in Chinese can be found [here](https://disk.pku.edu.cn/link/AACC104904FC81453A8553234AA3E090AA).  
+  *This is a presentation of my [bachelor thesis](/assets/pdf/bachelor-thesis.pdf).*  
   Seminar on Operations Research at BICMR  
   Jul. 31, 2021
