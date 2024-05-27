@@ -2,7 +2,8 @@
 layout: about
 title: About
 permalink: /
-# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+# subtitle: "Room 312, Building 21, Peking University, 123 Academic Lane, Cityville, ST 12345, Country | Email: john.doe@xyz.edu, Phone: +1 (123) 456-7890"
+# <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right

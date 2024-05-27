@@ -6,9 +6,17 @@ layout: default
     <h1 class="post-title">
       {% if site.title == 'blank' %}
         {% comment %} <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {% endcomment %}
-        {{ site.first_name }}
+        <span class="font-weight-bold">{{ site.first_name }}</span>
         {{ site.middle_name }}
-        {{ site.last_name }}
+        <span class="font-weight-bold">{{ site.last_name }}</span>
+    <!-- Social -->
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% include social.liquid %}</div>
+
+        {% comment %} <div class="contact-note">{{ site.contact_note }}</div> {% endcomment %}
+      </div>
+    {% endif %}
       {% else %}
         {{ site.title }}
       {% endif %}
@@ -50,14 +58,6 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
-    <!-- Latest posts -->
-    {% if site.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
-
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
@@ -66,13 +66,16 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
+    <!-- Latest posts -->
+    {% if site.latest_posts.enabled %}
+      <h2>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+      </h2>
+      {% include latest_posts.liquid %}
     {% endif %}
+
+
+
+
   </article>
 </div>

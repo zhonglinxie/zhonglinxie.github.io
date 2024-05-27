@@ -128,3 +128,6 @@
   </div>
   {% include scripts/wechatModal.liquid %}
 {% endif %}
+{% if site.zhihu_url %}
+  <a href="https://www.zhihu.com/people/{{ site.zhihu_url }}" title="Zhihu"><i class="fa-brands fa-zhihu"></i></a>
+{% endif %}
