@@ -65,6 +65,9 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+      - name: Specify Arch
+        run: |
+          bundle lock --add-platform x86_64-linux
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -79,7 +82,6 @@ jobs:
           value: ${{ github.repository }}
       - name: Install and Build 🔧
         run: |
-          bundle lock --add-platform x86_64-linux
           pip3 install --upgrade jupyter
           export JEKYLL_ENV=production
           bundle exec jekyll build
