@@ -59,18 +59,12 @@ permissions:
   contents: write
 
 jobs:
-  update-gemfile-lock:
-      runs-on: ubuntu-latest
-  
-      steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-  
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 2.7 # Adjust the Ruby version as needed
-  
+  deploy:
+    # available images: https://github.com/actions/runner-images#available-images
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
       - name: Update Gemfile.lock
         run: |
           sed -i 's/aarch64/x86_64/g' Gemfile.lock
@@ -79,7 +73,6 @@ jobs:
           git add Gemfile.lock
           git commit -m "Update architecture from aarch64 to x86_64 in Gemfile.lock"
           git push
-  
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
@@ -87,13 +80,6 @@ jobs:
           commit-message: Update architecture from aarch64 to x86_64 in Gemfile.lock
           branch: update-gemfile-lock
           title: Update Gemfile.lock architecture
-          body: This pull request updates the architecture in Gemfile.lock from aarch64 to x86_64.
-  deploy:
-    # available images: https://github.com/actions/runner-images#available-images
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v4
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
