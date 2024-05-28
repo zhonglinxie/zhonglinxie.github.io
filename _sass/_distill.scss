@@ -20,7 +20,7 @@ d-article d-byline a {
 
 d-article {
   border-top-color: var(--global-divider-color) !important;
-  overflow: auto; /* 允许横向滚动 */
+  overflow: scroll; /* 允许横向滚动 */
   p,
   h1,
   h2,
