@@ -1,10 +1,10 @@
 ---
 layout: post
-title: The footer information is moved to this post for simplicity
+title: The copyright information is moved to this post
 date: 2024-05-28
 # description: an example of a blog post with giscus comments
 tags: comments
-categories: sample-posts external-services
+# categories: sample-posts external-services
 giscus_comments: false
 related_posts: false
 featured: false
