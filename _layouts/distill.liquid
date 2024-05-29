@@ -78,7 +78,7 @@
         <d-byline></d-byline>
       {% endif %}
 
-      <d-article>
+      <d-article, style="overflow-x: scroll;">
         {% if page.toc %}
           <d-contents>
             <nav class="l-text figcaption">
@@ -100,9 +100,9 @@
             </nav>
           </d-contents>
         {% endif %}
-        <div id="markdown-content"  style="overflow: auto;">
+        {% comment %} <div id="markdown-content"  style="overflow-x: auto"> {% endcomment %}
         {{ content }}
-        </div>
+        {% comment %} </div> {% endcomment %}
       </d-article>
 
       <d-appendix>
