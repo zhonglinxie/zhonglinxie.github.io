@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Welcome to my personal homepage! I am a 3rd-year Ph.D. student at the [Beijing International Center for Mathematical Research](https://bicmr.pku.edu.cn/) at [Peking University](http://pku.edu.cn/), advised by Prof. [Zaiwen Wen](http://faculty.bicmr.pku.edu.cn/~wenzw/index.html). I am a member of the [Elite Ph.D. Program in Applied Mathematics](https://cmlr.pku.edu.cn/Graduate/ElitePhDProgram/Students/index.htm).
+Welcome to my personal homepage! I am a fourth-year Ph.D. student at the [Beijing International Center for Mathematical Research](https://bicmr.pku.edu.cn/), [Peking University](http://pku.edu.cn/), advised by Prof. [Zaiwen Wen](http://faculty.bicmr.pku.edu.cn/~wenzw/index.html). I am a member of the [Elite Ph.D. Program in Applied Mathematics](https://cmlr.pku.edu.cn/Graduate/ElitePhDProgram/Students/index.htm).
 
 My research interests lie in the fields of machine learning and optimization. I am working on designing new optimization algorithms using machine learning techniques, known as Learning to Optimize (L2O). I also have a strong interest in analyzing and developing new optimization algorithms from the ODE perspective. Furthermore, I am keen on addressing problems in deep learning using tools and insights from optimization.
 

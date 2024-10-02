@@ -7,6 +7,11 @@ nav: true
 nav_order: 3
 ---
 
+- **Modern Optimization**\
+  *This is part of the [PKU Summer School on Applied Mathematics 2024](https://www.math.pku.edu.cn/amel/docs/20240705164519451972.pdf). The course material including lecture notes can be found [here](https://disk.pku.edu.cn/link/AA673AD6751E70497EA7BD54A3BA4EB8C8).*  
+  Instructor: [Yurii Nesterov](https://en.wikipedia.org/wiki/Yurii_Nesterov)  
+  2024, Fall, Teaching Assistant
+
 - **[Optimization Methods](http://faculty.bicmr.pku.edu.cn/~wenzw/opt-2023-fall.html)**  
   Instructor: [Zaiwen Wen](http://faculty.bicmr.pku.edu.cn/~wenzw/index.html)  
   2023, Fall, Teaching Assistant
