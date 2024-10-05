@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-- **[Exploring Learning to Optimize: End-to-End Approaches for Constrained Optimization and Beyond](/assets/pdf/E2E_L2O_Slides.pdf)**  
+- **[Exploring Learning to Optimize: End-to-End Approaches for Constrained Optimization and Beyond](/assets/pdf/E2E_L2O_slides.pdf)**  
   *The video of this talk is available [here](https://www.bilibili.com/video/BV1GE8nejEz1/?spm_id_from=333.999.0.0) (in Chinese).*  
   Learning to Optimize Seminar held by Prof. [Kun Yuan](https://kunyuan827.github.io/)  
   Jul. 18, 2024
