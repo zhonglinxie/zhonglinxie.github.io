@@ -207,6 +207,13 @@
           <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
         {% endif %}
       {% endif %}
+      {% if entry.dataset %}
+        {% if entry.dataset contains '://' %}
+          <a href="{{ entry.dataset }}" class="btn btn-sm z-depth-0" role="button">Dataset</a>
+        {% else %}
+          <a href="{{ entry.dataset | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Dataset</a>
+        {% endif %}
+      {% endif %}
       {% if entry.video and site.enable_video_embedding %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
       {% elsif entry.video %}
