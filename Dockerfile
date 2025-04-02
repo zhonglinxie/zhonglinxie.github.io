@@ -1,7 +1,7 @@
 FROM ruby:latest
 ENV DEBIAN_FRONTEND noninteractive
 
-Label MAINTAINER Amir Pourmand
+LABEL MAINTAINER Amir Pourmand
 
 RUN apt-get update -y && apt-get install -y --no-install-recommends \
     locales \
@@ -24,13 +24,15 @@ ENV LANG=en_US.UTF-8 \
 
 RUN mkdir /srv/jekyll
 
-ADD Gemfile.lock /srv/jekyll
-ADD Gemfile /srv/jekyll
+COPY Gemfile /srv/jekyll/
 
 WORKDIR /srv/jekyll
 
 # install jekyll and dependencies
 RUN gem install jekyll bundler
+
+RUN gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/
+RUN bundle config mirror.https://rubygems.org https://gems.ruby-china.com
 
 RUN bundle install --no-cache
 # && rm -rf /var/lib/gems/3.1.0/cache
