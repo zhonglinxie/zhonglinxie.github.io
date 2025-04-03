@@ -1,4 +1,4 @@
-source 'https://gems.ruby-china.com/'
+source 'https://gems.ruby-china.com'
 group :jekyll_plugins do
     gem 'classifier-reborn'
     gem 'jekyll'
@@ -11,6 +11,7 @@ group :jekyll_plugins do
     gem 'jekyll-link-attributes'
     gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'
+    gem 'jekyll-regex-replace'
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
     gem 'jekyll-tabs'
