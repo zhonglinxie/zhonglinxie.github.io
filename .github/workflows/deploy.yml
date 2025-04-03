@@ -65,25 +65,25 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
-      - name: Update Gemfile.lock
-        run: |
-          sed -i 's/aarch64/x86_64/g' Gemfile.lock
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add Gemfile.lock
-          if git diff-index --quiet HEAD --; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update architecture from aarch64 to x86_64 in Gemfile.lock"
-            git push
-          fi
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: Update architecture from aarch64 to x86_64 in Gemfile.lock
-          branch: update-gemfile-lock
-          title: Update Gemfile.lock architecture
+      # - name: Update Gemfile.lock
+      #   run: |
+      #     sed -i 's/aarch64/x86_64/g' Gemfile.lock
+      #     git config --global user.name 'github-actions[bot]'
+      #     git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+      #     git add Gemfile.lock
+      #     if git diff-index --quiet HEAD --; then
+      #       echo "No changes to commit"
+      #     else
+      #       git commit -m "Update architecture from aarch64 to x86_64 in Gemfile.lock"
+      #       git push
+      #     fi
+      # - name: Create Pull Request
+      #   uses: peter-evans/create-pull-request@v3
+      #   with:
+      #     token:
+      #     commit-message: Update architecture from aarch64 to x86_64 in Gemfile.lock
+      #     branch: update-gemfile-lock
+      #     title: Update Gemfile.lock architecture
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
