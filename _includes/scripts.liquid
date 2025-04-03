@@ -1,0 +1,24 @@
+<!-- jQuery -->
+<script src="{{ site.third_party_libraries.jquery.url.js }}" integrity="{{ site.third_party_libraries.jquery.integrity.js }}" crossorigin="anonymous"></script>
+
+<!-- Bootstrap -->
+<script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url | bust_file_cache }}"></script>
+
+<!-- Medium Zoom, bootstrap-table, Misc -->
+{% include scripts/misc.liquid %}
+
+<!-- MathJax -->
+{% include scripts/mathjax.liquid %}
+
+{% if page.mermaid %}
+  <!-- Mermaid -->
+  {% include scripts/mermaid.liquid %}
+{% endif %}
+
+{% if page.js %}
+  <!-- Custom javascript -->
+  <script src="{{ page.js | relative_url | bust_file_cache }}"></script>
+{% endif %}
+
+<!-- Google Analytics -->
+{% include scripts/analytics.liquid %} 

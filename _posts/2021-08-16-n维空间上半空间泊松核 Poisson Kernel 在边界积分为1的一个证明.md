@@ -6,6 +6,7 @@ description: n维空间上半空间泊松核 (Poisson Kernel) 在边界积分为
 tags: math
 # categories: lecture notes
 related_posts: true
+usemathjax: true
 ---
 在 Evans PDE 的 P38 关于 Laplace 方程解的推导中需用到如下积分:
 

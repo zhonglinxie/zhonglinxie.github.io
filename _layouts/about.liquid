@@ -9,14 +9,10 @@ layout: default
         <span class="font-weight-bold">{{ site.first_name }}</span>
         {{ site.middle_name }}
         <span class="font-weight-bold">{{ site.last_name }}</span>
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        {% comment %} <div class="contact-note">{{ site.contact_note }}</div> {% endcomment %}
-      </div>
-    {% endif %}
+        <!-- Social icons inline with name -->
+        {% if page.social %}
+          <span class="social-inline">{% include social.liquid %}</span>
+        {% endif %}
       {% else %}
         {{ site.title }}
       {% endif %}

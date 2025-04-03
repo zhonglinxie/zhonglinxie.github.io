@@ -63,7 +63,6 @@
       }
     ],
     "awards": [
-
       {
         "title": "Presidential Scholarship",
         "date": "2024",
@@ -91,29 +90,6 @@
         "awarder": "Peking University",
         "url": "",
         "summary": ""
-      }
-    ],
-    "publications": [
-      {
-        "name": "ODE-based Learning to Optimize",
-        "publisher": "ArXiv",
-        "releaseDate": "2024",
-        "url": "",
-        "summary": "A novel learning to optimize framework based on the ODE viewpoint of optimization algorithms."
-      },
-      {
-        "name": "Joint bandwidth allocation and path selection in WANs with path cardinality constraints",
-        "publisher": "Journal of Communications and Information Networks",
-        "releaseDate": "2021",
-        "url": "https://doi.org/10.23919/JCIN.2021.9549120",
-        "summary": "Proposes an algorithm based on ADMM that jointly optimizes the lantency and fairness under the resource constraint."
-      },
-      {
-        "name": "LRSDP: Low-rank SDP for triple patterning lithography layout decomposition",
-        "publisher": "ACM/IEEE Design Automation Conference (DAC)",
-        "releaseDate": "2023",
-        "url": "https://doi.org/10.1109/DAC56929.2023.10247846",
-        "summary": "Applies the SDPDAL solver to patterning lithography layout decomposition problem."
       }
     ],
     "teaching": [
@@ -147,5 +123,35 @@
     "languages": [],
     "interests": [],
     "references": [],
-    "projects": []
+    "projects": [],
+    "publications": [
+      {
+        "name": "OptMATH: ",
+        "publisher": "ArXiv",
+        "releaseDate": "2025",
+        "url": "",
+        "summary": "A novel learning to optimize framework based on the ODE viewpoint of optimization algorithms."
+      },
+      {
+        "name": "ODE-based Learning to Optimize",
+        "publisher": "ArXiv",
+        "releaseDate": "2024",
+        "url": "",
+        "summary": "A novel learning to optimize framework based on the ODE viewpoint of optimization algorithms."
+      },
+      {
+        "name": "Joint bandwidth allocation and path selection in WANs with path cardinality constraints",
+        "publisher": "Journal of Communications and Information Networks",
+        "releaseDate": "2021",
+        "url": "https://doi.org/10.23919/JCIN.2021.9549120",
+        "summary": "Proposes an algorithm based on ADMM that jointly optimizes the lantency and fairness under the resource constraint."
+      },
+      {
+        "name": "LRSDP: Low-rank SDP for triple patterning lithography layout decomposition",
+        "publisher": "ACM/IEEE Design Automation Conference (DAC)",
+        "releaseDate": "2023",
+        "url": "https://doi.org/10.1109/DAC56929.2023.10247846",
+        "summary": "Applies the SDPDAL solver to patterning lithography layout decomposition problem."
+      }
+    ]
   }
