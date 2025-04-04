@@ -6,8 +6,35 @@
         tex: {
           tags: 'ams',
         },
+        chtml: {
+          scale: 1,                      // 缩放因子
+          minScale: 0.5,                 // 最小缩放
+          mtextInheritFont: true,        // 文本继承字体
+          matchFontHeight: true,         // 匹配字体高度
+          adaptiveCSS: true              // 自适应CSS
+        },
+        options: {
+          enableMenu: false              // 禁用右键菜单
+        },
+        svg: {
+          linebreaks: {
+            automatic: true,             // 自动换行
+            width: 'container'           // 基于容器宽度
+          }
+        }
       };
     </script>
+    <style>
+      .MathJax_Display {
+        overflow-x: auto;
+        overflow-y: hidden;
+        max-width: 100%;
+      }
+      .MathJax {
+        overflow-x: auto;
+        overflow-y: hidden;
+      }
+    </style>
     <script
       defer
       type="text/javascript"

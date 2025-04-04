@@ -171,8 +171,8 @@
 <script defer src="{{ '/assets/js/jupyter_new_tab.js' | relative_url | bust_file_cache }}"></script>
 
 <!-- Removed Badges -->
-
-{% if site.enable_math %}
+{% include scripts/mathjax.liquid %}
+{% comment %} {% if site.enable_math %}
   <!-- MathJax -->
   <script
     defer
@@ -189,7 +189,7 @@
     crossorigin="anonymous"
   ></script>
   <!-- Removed Pseudocode -->
-{% endif %}
+{% endif %} {% endcomment %}
 
 {% if site.enable_google_analytics %}
   <!-- Analytics -->
