@@ -9,7 +9,7 @@ nav_order: 1
 
 <!-- _pages/publications.md -->
 <div class="publications">
-
+* denotes co-first authors
 {% bibliography %}
 
 </div>

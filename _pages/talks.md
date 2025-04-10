@@ -7,6 +7,19 @@ nav: true
 nav_order: 2
 ---
 
+- **[Data Selection for Language Models: From the Perspective of Learning to Optimize](/assets/pdf/Data_Selection_Survey_slides.pdf)**  
+  3+X Seminar on Large Language Models and Scientific Computing at School of Mathematics Science, Peking University  
+  Apr. 9, 2025
+
+- **[Primal-Dual Hybrid Gradient Algorithm for Linear Programming](/assets/pdf/PDLP_slides.pdf)**  
+  Seminar on Operations Research at BICMR  
+  Apr. 2, 2025
+
+- **[Learning-based Approaches for Linear Programming: A Survey](/assets/pdf/LPFM_slides.pdf)**  
+  Seminar on Operations Research at BICMR  
+  3+X Seminar on Large Language Models and Scientific Computing at School of Mathematics Science, Peking University  
+  Oct. 9, 2024
+
 - **[Exploring Learning to Optimize: End-to-End Approaches for Constrained Optimization and Beyond](/assets/pdf/E2E_L2O_slides.pdf)**  
   *The video of this talk is available [here](https://www.bilibili.com/video/BV1GE8nejEz1/?spm_id_from=333.999.0.0) (in Chinese).*  
   Learning to Optimize Seminar held by Prof. [Kun Yuan](https://kunyuan827.github.io/)  
